@@ -7,7 +7,7 @@ class InputData(BaseModel):
     features: list[float]
 
 # Load model once
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("scaler_X_Trilokinathpura.pkl", "rb"))
 
 # Initialize FastAPI app
 app = FastAPI()
