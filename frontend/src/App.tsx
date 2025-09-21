@@ -9,6 +9,7 @@ import { AlertSystem } from './components/AlertSystem';
 import { Navigation } from './components/Navigation';
 import { Button } from './components/ui/button';
 import { LogOut } from 'lucide-react';
+import Predictor from "./Predictor";   // ✅ Predictor component
 
 export type UserRole = 'farmer' | 'citizen' | 'industry' | 'researcher';
 
@@ -194,6 +195,12 @@ export default function App() {
       {/* Main Content */}
       <div className="flex-1 overflow-hidden">
         {getCurrentComponent()}
+
+        {/* ✅ Add Predictor below main content */}
+        <div className="p-4 border-t border-border bg-white">
+          <h2 className="text-lg font-semibold mb-2">AI Model Prediction</h2>
+          <Predictor />
+        </div>
       </div>
 
       {/* Navigation */}
