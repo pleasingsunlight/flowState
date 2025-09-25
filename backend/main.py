@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 # Load trained Keras model and corresponding scalers
 model = load_model("Ground Water Level_Trilokinathpura.keras")
-scaler_X = joblib.load("Ground Water Level_Trilokinathpura_X_scaler.pkl")
-scaler_y = joblib.load("Ground Water Level_Trilokinathpura_y_scaler.pkl")
+scaler_X = joblib.load("scalar_X_Trilokinathpura.pkl")
+scaler_y = joblib.load("scalar_y_Trilokinathpura.pkl")
 
 # Define look-back period used during training
 N_STEPS = 10
