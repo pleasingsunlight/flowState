@@ -13,6 +13,7 @@ This repository contains the **frontend** built with React, TypeScript, and Vite
 * **UI Components:** [shadcn/ui](https://ui.shadcn.com/) (custom reusable UI primitives)
 * **Icons:** [Lucide-react](https://lucide.dev/)
 * **Visualization:** Placeholder components for charts & maps (to be connected with backend APIs later)
+*  **Database:** SupaBase , MongoDB
 
 ---
 
