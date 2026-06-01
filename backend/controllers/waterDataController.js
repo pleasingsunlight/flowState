@@ -1,7 +1,7 @@
 // backend/controllers/waterDataController.js
 
 const WaterData = require('../models/WaterData'); // Mongoose model
-const { getPrediction } = require('../utils/mlHelper'); // ML helper
+const { getPrediction } = require('../utils/mlHelper'); //  ML helper
 
 // GET all water data
 exports.getAllWaterData = async (req, res) => {
